@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  font-family: 'newsgothic';
+}
+body {
+
+  max-width: 100%;
+  margin: 2em 0 0 0;
+  padding: 0;
+  font-family: 'newsgothic';
+}
+@font-face {
+  font-family: "newsgothic";
+  src: url("./fonts/NewsGothicStd.otf");
+}
+@font-face {
+  font-family: "caviar";
+  src: url("./fonts/CaviarDreams.ttf");
+}
+div {
+  padding: 0.5em;
+}
+p {
+  font-size: 1.1em;
+  max-width: 96%;
+  line-height: 120%;
+  margin: auto;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+nav.navbar {
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  border: solid 1px #000000;
+  min-height: 3em;
+  background-color: lightblue;
+}
+nav ul {
+  display: flex;
+  min-width: 100%;
+  /* position: fixed; */
+}
+nav li{
+  text-align: center;
+  flex: 1;
+  padding: 1em;
+}
+nav li.logo {
+  flex: 6;
+  text-align: left;
+}
+form {
+  background-color: lightgrey;
+  min-width: 70%;
+  max-width: 90%;
+  margin: auto;
+  text-align: left;
+  border: solid 1px #000000;
+  border-radius: .4em;
+}
+fieldset {
+  text-align: left;
+  padding: 3em;
+
+  margin: 0 auto;
+}
+legend {
+  text-align: center;
+  padding: .4em;
+}
+form input {
+  border-radius: .4em;
+  cursor: pointer;
+  line-height: 120%;
+}
+input {
+  border-radius: .4em;
+  cursor: pointer;
+  line-height: 120%;
+}
+input:hover {
+  background-color: lightgrey;
+}
+textarea {
+  background-color: #f1f1f1;
+}
+
+/* COLORS */
+/* --white-- */
+.wt {
+background-color: #f1f1f1;
+color: #000000;
+}
+/* --black-- */
+.bk {
+  background-color: #000000;
+  color:#f1f1f1;
+}
+/* --blue-- */
+.bl {
+  background-color: #0d6dce;
+  color: #f1f1f1;
+}
+/* --red-- */
+.rd {
+  background-color:#f80606;
+  color: #010101;
+}
+/* --green-- */
+.gr {
+  background-color:#aacf36;
+  color:;
+}
+.yl {
+  background-color: #daa520;
+}
+
+/* ALIGNMENT CLASSES */
+.cntr {
+  text-align: center;
+}
+.lt {
+  text-align: left;
+}
+.rt {
+  text-align: right;
+}
+
+/* HEADINGS- STANDARD SIZE */
+h1 {
+  font-size: 2.1em;
+  padding: 0.13em;
+}
+h2 {
+  font-size: 1.9em;
+  padding: 0.16em;
+}
+h3 {
+  font-size: 1.7em;
+  padding: 0.18em;
+}
+h4 {
+  font-size: 1.5em;
+  padding: 0.2em;
+}
+h5 {
+  font-size: 1.3em;
+  padding: 0.24em;
+}
+h6 {
+  font-size: 1.1em;
+  padding: 0.28em;
+}
+
+/* STANDARD BUTTON STYLES */
+button {
+  background-color: #ffffff;
+  font-size: 0.9em;
+  padding: .2em;
+  border-radius: .2em;
+  border: solid 1px #000000;
+}
+button.round {
+  font-size: .9em;
+  padding: .2em;
+  border-radius: .5em;
+  border: solid 1px #000000;
+}
+button:hover {
+  cursor: pointer;
+  border: solid 1px #000000;
+}
+
+/* DEVELOPMENT CLASSES - USE THESE FOR GUIDES WHILE BUILDING */
+.min {
+  min-height: 200px;
+}
+.bor {
+  border: solid 1px #000000;
+}
+
+/* GRID SYSTEM */
+
+
+/* @media (max-width: 604px ) { */
+  .row{
+    display: flex;
+  }
+  .col {
+    margin: 5px;
+  }
+  .col-1{
+    flex: 1;
+  }
+  .col-2 {
+    flex: 2;
+  }
+  .col-3{
+    flex: 3;
+  }
+  .col-4{
+    flex: 4;
+  }
+  .col-5{
+    flex: 5;
+  }
+  .col-6{
+    flex: 6;
+  }
+  .col-7{
+    flex: 7;
+  }
+  .col-8{
+    flex: 8;
+  }
+  .col-9{
+    flex: 9;
+  }
+  .col-10{
+    flex: 10;
+  }
+  .col-11{
+    flex: 11;
+  }
+  .col-12{
+    flex: 12;
+  }
+  .small-grid {
+    display: none;
+  }
+/* } */
+
+@media (max-width: 603px) {
+  p {
+    font-size: 1.1em;
+    max-width: 96%;
+    line-height: 120%;
+    margin: auto;
+    text-align: left;
+  }
+  h1 {
+    font-size: 1.9em;
+    padding: 0.13em;
+  }
+  h2 {
+    font-size: 1.7em;
+    padding: 0.16em;
+  }
+  h3 {
+    font-size: 1.5em;
+    padding: 0.18em;
+  }
+  h4 {
+    font-size: 1.3em;
+    padding: 0.2em;
+  }
+  h5 {
+    font-size: 1.1em;
+    padding: 0.24em;
+  }
+  h6 {
+    font-size: .9em;
+    padding: 0.28em;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .col {
+    margin: 5px;
+  }
+  .col-1{
+    flex: 1;
+  }
+  .col-2 {
+    flex: 2;
+  }
+  .col-3{
+    flex: 3;
+  }
+  .col-4 {
+    flex: 4;
+  }
+  .col-5{
+    flex: 5;
+  }
+  .col-6{
+    flex: 6;
+  }
+  .col-7{
+    flex: 7;
+  }
+  .col-8{
+    flex: 8;
+  }
+  .col-9{
+    flex: 9;
+  }
+  .col-10{
+    flex: 10;
+  }
+  .col-11{
+    flex: 11;
+  }
+  .col-12{
+    flex: 12;
+  }
+  .large-grid {
+    display: none;
+  }
+  .small-grid {
+    color: black;
+  }
+  form {
+    min-width: 100%;
+    text-align: center;
+  }
+    nav button {
+    background-color: #ffffff;
+    font-size: .7em;
+    padding: .2em;
+    border-radius: .2em;
+    border: solid 1px #000000;
+  }
+  button[radio] {
+    background-color: red;
+  }
+}

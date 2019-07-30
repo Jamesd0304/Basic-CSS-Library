@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <nav class='navbar'>
+      <h2 class='cntr'>Standard css</h2>
+      <ul>
+        <li class='logo'>Logo</li>
+        <li><button>Home</button></li>
+        <li><button>Blog</button></li>
+        <li><button>Contact</button></li>
+        <li><button>About</button></li>
+      </ul>
+    </nav>
+    <div class='cntr'><h1>Headings<h1></div>
+    <h1 class=' bl cntr'>H1 HEADING</h1>
+    <h2 class='bk cntr'>H2 HEADING</h2>
+    <h3 class='rd cntr'>H3 HEADING</h3>
+    <h4 class='wt cntr'>H4 HEADING</h4>
+    <h5 class='yl cntr'>H5 HEADING</h5>
+    <h6 class='gr cntr'>H6 HEADING</h6>
+    <h2 class="cntr">The Grid</h2>
+    <div class="bor min row">
+      <div class=" bor col col-3 cntr">Flex 3
+        <p class="large-grid">The Flex Values per row must = 12</p>
+        <p class="large-grid">Examlpe flex of 3 * 4 boxes = 12</p>
+      </div>
+      <div class=" bor col col-3 cntr">Flex 3
+        <p class=" cntr">The grid system becomes column based</p>
+        <p class="cntr">When the device width is 603px and smaller</p>
+      </div>
+      <div class=" bor col col-3 cntr">Flex 3</div>
+      <div class=" bor col col-3 cntr">Flex 3</div>
+    </div>
+    <div class="bor min row">
+      <div class=" bor col col-2 cntr">Flex 2</div>
+      <div class=" bor col col-2 cntr">Flex 2</div>
+      <div class=" bor col col-2 cntr">Flex 2</div>
+      <div class=" bor col col-2 cntr">Flex 2</div>
+      <div class=" bor col col-2 cntr">Flex 2</div>
+      <div class=" bor col col-2 cntr">Flex 2</div>
+    </div>
+    <div class="bor min row">
+      <div class=" bor col col-9 cntr">Flex 9</div>
+      <div class=" bor col col-3 cntr">Flex 3</div>
+    </div>
+    <div class="bor min row">
+      <div class="bor col col-6 cntr">Flex 6</div>
+      <div class="bor col col-6 cntr">Flex 6</div>
+    </div>
+    <div class="cntr bor">
+    <h2 class='cntr'>Buttons</h2>
+    <h3>Standard style no class added</h3>
+      <button class=''>Click Me!</button>
+    <h3>Button with 'round' class</h3>
+      <button class='round'>Click Me!</button>
+    <h3>Buttons with color added</h3>
+      <button class='rd'>Click Me!</button>
+      <button class='gr'>Click Me!</button>
+      <button class='bl'>Click Me!</button>
+      <button class='yl'>Click Me!</button>
+    </div>
+    <div class="cntr bor min">
+      <h3>Paragraph Style</h3>
+      <p>Cloud bread typewriter 8-bit next level mustache celiac locavore craft beer gochujang tbh vexillologist skateboard art party hexagon. Fixie palo santo 8-bit crucifix yr single-origin coffee air plant. Schlitz enamel pin cornhole, marfa la croix viral stumptown chartreuse kickstarter selvage helvetica cold-pressed raclette. Freegan distillery shabby chic, snackwave sartorial pop-up man bun chambray woke celiac fanny pack. Tattooed banjo franzen vaporware hexagon pickled hoodie hella listicle hammock. Street art chartreuse squid humblebrag.  Waistcoat cred glossier occupy salvia tattooed, small batch mumblecore heirloom retro taxidermy 8-bit cloud bread cold-pressed. Neutra flexitarian vape four loko. Artisan live-edge hexagon chartreuse tattooed gluten-free. Cred flexitarian portland whatever VHS migas prism. Health goth brooklyn waistcoat direct trade farm-to-table, man bun mixtape master cleanse. Godard iPhone waistcoat meggings.</p>
+
+      <p>Crucifix church-key godard, unicorn prism health goth food truck tumblr adaptogen cray banh mi. Polaroid raw denim +1, tbh affogato meggings kitsch kogi retro tattooed meh. Locavore knausgaard cliche +1, yr pitchfork aesthetic. Cardigan jianbing echo park, air plant vice gentrify try-hard. Distillery lomo pickled four loko, green juice four dollar toast dreamcatcher meh tote bag vegan viral single-origin coffee. Meggings ugh hot chicken before they sold out kombucha, VHS tilde wayfarers tattooed authentic small batch bespoke. Blog lo-fi flannel normcore, poutine vape stumptown whatever.</p>
+    </div>
+      <div class="bor min row">
+        <form>
+          <fieldset>
+            <legend>Form Fields</legend>
+            <div><label for="text-input">Text input</label> <input id="text-input" type="text"></div>
+            <div><label for="readonly-input">Readonly input</label> <input id="readonly-input" type="text" value="Read only text input" readonly></div>
+            <div><label for="disabled-input">Disabled input</label> <input id="disabled-input" type="text" value="Disabled text input" disabled></div>
+            <div><label for="required-input">Required input <span class="required">*</span></label> <input id="required-input"></div>
+            <div><label for="tel-input">Tel input</label> <input id="tel-input" type="tel"></div>
+            <div><label for="password-input">Password input</label> <input id="password-input" type="password" value="password"></div>
+            <div><label for="radio-input"><input id="radio-input" type="radio" name="rad"> Radio input</label></div>
+            <div><label for="checkbox-input"><input id="checkbox-input" type="checkbox"> Checkbox input</label></div>
+            <div><label for="file-input">File input</label> <input id="file-input" type="file"></div>
+            <div><label for="textarea">Textarea</label> <textarea id="textarea" cols="30" rows="5" >Textarea text</textarea></div>
+            <div><label for="color-input">Color input</label> <input id="color-input" type="color" value="#000000"></div>
+            <div><label for="number-input">Number input</label> <input id="number-input" type="number" value="5" min="0" max="10"></div>
+            <div><label for="range-input">Range input</label> <input id="range-input" type="range" value="0" min="0" max="100"> <output>0</output>
+            </div>
+            <div><label for="date-input">Date input</label> <input id="date-input" type="date"></div>
+            <div><label for="month-input">Month input</label> <input id="month-input" type="month"></div>
+            <div><label for="week-input">Week input</label> <input id="week-input" type="week"></div>
+            <div><label for="time-input">Time input</label> <input id="time-input" type="time"></div>
+            <div><label for="datetime-input">Datetime input</label> <input id="datetime-input" type="datetime"></div>
+            <div><label for="datetime-local-input">Datetime-local input</label> <input id="datetime-local-input" type="datetime-local"></div>
+          </fieldset>
+          <div class='cntr'>
+          <input type="submit" value="Submit form">
+        </div>
+        </form>
+      </div>
+  </body>
+</html>
